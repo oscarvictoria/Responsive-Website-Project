@@ -17,8 +17,8 @@ html,
 
 body {
     background-color: blanchedalmond;
-    color:black
-
+    font-family: 'Poppins', sans-serif;
+    color: #111;
 }
 
 .section {
@@ -76,6 +76,7 @@ h1 {
 
 p {
     font-size: 15px;
+    margin: 20px 0 10px;
 }
 
 h2 {
