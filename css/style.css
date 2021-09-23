@@ -1,11 +1,24 @@
 /* Add url for fonts */
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
 
+:root {
+    --primary-color: #f60f20;
+    --secondary-color: #1b206e;
+  }
 /* Base styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
 
 html,
 
 body {
+    background-color: blanchedalmond;
     color:black
+
 }
 
 .section {
@@ -14,6 +27,7 @@ body {
 }
 
 .btn {
+    position: absolute;
     background-color: green;
     color: #ffff;
     cursor: pointer;
@@ -38,8 +52,9 @@ z-index: 10;
 
 .homw-img {
     bottom: 0;
-    right: -800px;
-    height: 300%;
+    top: 0px;
+    left: 700px;
+    height: 50%;
 }
 
 .home-content {
@@ -48,6 +63,7 @@ z-index: 10;
 }
 
 .navigation {
+    color:red;
     position: absolute;
     top: 15px;
     right: 60px;
@@ -67,7 +83,4 @@ h2 {
     font-weight: 100;
 }
 
-head {
-   
-}
 
