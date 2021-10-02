@@ -16,7 +16,7 @@
 html,
 
 body {
-    background-color: blanchedalmond;
+    background-color: #ffffff;
     font-family: 'Poppins', sans-serif;
     color: #111;
 }
@@ -44,7 +44,6 @@ transform: scale(0.99);
 .logo {
 position: absolute;
 top: 30px;
-left: 340px;
 font-size: 2.5rem;
 font-weight: 700;
 z-index: 10;
