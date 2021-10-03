@@ -23,24 +23,24 @@ body {
 
 section {
     display: flex;
-    height: 100vh;
     align-items: center;
+    height: 100vh;
     padding: 100px;
-
 }
 
 .btn {
-    display: inline-block;
-    background-color: green;
-    color: #ffff;
-    cursor: pointer;
-    text-decoration: none;
-    padding: 5px 30px;
-    margin: 20px 0;
+ cursor: pointer;
+background: green
+text-decoration: none;
+padding: 10px 30px;
+margin: 20px 0; 
+
+
+
 }
 
 .btn:hover {
-transform: scale(0.99);
+
 }
 
 
@@ -76,7 +76,7 @@ z-index: 10;
 
 
 h1 {
-    font-size: 30px; 
+    font-size: 20px; 
     font-weight: 500;
 }
 
@@ -86,8 +86,8 @@ p {
 }
 
 h2 {
-    font-size: 25px;
-    font-weight: 100;
+    font-size: 15px;
+    font-weight: 50;
 }
 
 
