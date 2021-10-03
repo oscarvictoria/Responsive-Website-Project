@@ -29,17 +29,17 @@ section {
 }
 
 .btn {
- cursor: pointer;
-background: green
-text-decoration: none;
-padding: 10px 30px;
-margin: 20px 0; 
-
-
-
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin: 20px 0;
+    background-color: green;
+    color: white;
 }
 
 .btn:hover {
+    transform: scale(1.05);
 
 }
 
