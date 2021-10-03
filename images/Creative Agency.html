@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title> Creative Agency </title>
+
+<title> Creative Agency </title><link rel="stylesheet" href="./Creative Agency_files/style.css"></head>
+
+
+<body>
+    <header>
+        <div class="logo">Creative Agency</div>
+        <div class="toggle"></div>
+        <div class="navigation">
+        <ul>
+            <li><a href="http://127.0.0.1:5500/index.html">Home</a></li>
+            <li><a href="http://127.0.0.1:5500/services.html">Services</a></li>
+            <li><a href="http://127.0.0.1:5500/work.html">Work</a></li>
+            <li><a href="http://127.0.0.1:5500/contact.html">Contact</a></li>
+        </ul>
+        <div class="social-bar">
+            <ul>
+                <li>
+                    <a href="http://facebook.com/">
+                        <img src="./Creative Agency_files/facebook.png" target="blank" alt="">
+                    </a>
+                    
+                </li>
+                <li>
+                    <a href="http://twitter.com/">
+                        <img src="./Creative Agency_files/twitter.png" target="blank" alt="">
+                    </a>
+                    
+                </li>
+
+                <li>
+                    <a href="http://instagram.com/">
+                        <img src="./Creative Agency_files/instagram.png" target="blank" alt="">
+                    </a>
+                    
+                </li>
+
+                <!-- <ul> *Fix position*
+                    <a href="mailto:you@email.com" class= "email-icon">
+                        <img src="images/email.png" alt="">
+                    </a>
+                </ul> -->
+
+                </ul></div>
+            </div>
+        </header>
+    
+   
+
+    <section>
+        <img src="./Creative Agency_files/home-img.jpeg" class="home.-img" alt="">
+        <div class="home-content"></div>
+
+        <h2>
+            Welcome
+        </h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quo cumque nostrum! Atque, minus, quidem deleniti suscipit, nisi recusandae dolor totam ipsa consequuntur illum harum odit laboriosam voluptatum fugit iste.
+            </p>
+            <a href="http://127.0.0.1:5500/contact.html%22" class="btn">Get Started</a>
+          
+    </section>
+
+    <script>src= "js/script.js"</script>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>
