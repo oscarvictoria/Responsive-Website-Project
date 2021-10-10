@@ -1,5 +1,5 @@
 # Responsive-Website-Project
 
-<img src="images/TODO.PNG" width="800">
+<img src="images/homepage.png" width="800">
 
 
