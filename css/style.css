@@ -45,6 +45,11 @@ section {
 
 /* Button */
 
+button {
+  
+    
+}
+
 
 .btn {
     cursor: pointer;
@@ -115,6 +120,22 @@ z-index: 10;
 }
 
  /* Services Page */
+
+ .design {
+     position: absolute;
+     height: 10%;
+ }
+
+ .services-content {
+    position: absolute;
+    display: flexbox;
+    padding: 100px;
+    left: -80px;
+ }
+ 
+
+
+ 
 
 
 
