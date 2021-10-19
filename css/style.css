@@ -134,12 +134,15 @@ z-index: 10;
  }
  
 
-
- 
-
-
-
 /* Work Page */
+
+
+
+.work-content {
+    top: 20px;
+    position: absolute;
+}
+
 
 
 
