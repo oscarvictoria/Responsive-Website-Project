@@ -122,17 +122,39 @@ z-index: 10;
  /* Services Page */
 
  .design {
+     display: none;
      position: absolute;
      height: 10%;
  }
 
  .services-content {
+    display: none;
     position: absolute;
     display: flexbox;
     padding: 100px;
     left: -80px;
  }
+
+ table {
+   position: fixed;
+   bottom: 0px;
+   left: 0;
+   background-color: black;
+   
+ }
  
+ th, td {
+    position: relative;
+    width: 800px;
+    height: 80px;
+    text-align:center;
+    border:1px solid black;
+    padding:5px;
+    z-index: 10;
+    background-color: yellow;
+    color: black;
+  
+}
 
 /* Work Page */
 
