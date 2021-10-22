@@ -78,6 +78,7 @@ z-index: 10;
 
 /* Toggle  */
 .toggle { 
+    display: none;
     position: fixed;
     top: 0;
     left: 0px;
@@ -93,13 +94,15 @@ z-index: 10;
 }
 
 .toggle.active {
+   
 
 }
 
 /* Navigation  */
 
 .navigation {
-  display: none;
+  position: fixed;
+  left: 30px;
 }
 
 
