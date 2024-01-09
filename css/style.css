@@ -178,6 +178,23 @@ z-index: 10;
 
 
 
+#facebook  {
+    height: 20px;
+    
+}
 
+#twitter {
+    height: 20px;
+}
 
+#instagram {
+    height: 20px;
+}
 
+ul.social li {
+    top: 10px;
+    display: inline-block;
+    padding: 50px;
+    position: relative;
+    
+}
